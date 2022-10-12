@@ -1,0 +1,158 @@
+#title {
+	background-color: #ff4c68;
+	color: white;
+	padding-bottom: 5%;
+}
+
+#main-heading {
+	font-family: "Montserrat";
+	font-size: 3em;
+	line-height: 1.7;
+}
+
+.container-fluid {
+	padding: 2% 15%;
+}
+
+.pic-of-description span {
+	color: #ef8172;
+	margin-bottom: 4%;
+}
+
+#features-description {
+	text-align: center;
+	line-height: 1;
+}
+
+#features-description h3 {
+	font-family: "Montserrat";
+	font-style: bold;
+	font-size: 1.5em;
+}
+
+#features-description p {
+	color: #8f8f8f;
+}
+
+.pic-of-description span:hover {
+	color: red;
+	margin-bottom: 4%;
+}
+
+
+
+
+/* Testmonial section**/
+
+#testimonials {
+	padding: 4% 15%;
+	text-align: center;
+	background-color: #ef8172;
+	color: #fff;
+}
+
+h2 {
+	font-family: "Montserrat";
+	font-weight: 900;
+	font-size: 2em;
+}
+
+.testimonial-image {
+	width: 20%;
+	border-radius: 50%;
+	margin: 3% 5%;
+	clear: right;
+}
+
+#press {
+	text-align: center;
+	background-color: #ef8172;
+	padding-bottom: 2%
+}
+
+.press-images {
+	width: 10%;
+	margin: 0 2% 1% 2%;
+}
+
+#pricing {
+	padding: 3% 0;
+}
+
+
+
+
+/* ==============================cta===================================*/
+#cta {
+	background-color: #ff4c68;
+	text-align: center;
+	padding: 4% 15%;
+}
+
+#cta h3 {
+	padding-bottom: 2%;
+	font-family: "Montserrat";
+	font-weight: 900;
+	font-size: 3em;
+	line-height: 1.5;
+	color: #fff;
+}
+
+/* ==============================footer================================*/
+#footer {
+	background-color: #fff;
+	padding: 4% 15%;
+	text-align: center;
+}
+
+#footer ul {
+	list-style-type: none;
+}
+
+#footer ul li {
+	display: inline-block;
+	margin: 0% 1%;
+
+}
+
+@media (min-width:1200px) {
+	#img-phone {
+		position: absolute;
+		width: 18%;
+		transform: rotate(25deg);
+	}
+
+	#features {
+		background-color: #fff;
+		padding: 7% 0;
+		position: relative;
+		z-index: 1;
+
+	}
+}
+
+@media (max-width:988px) and (min-width:200px) {
+	#img-phone {
+		display: none;
+	}
+
+	#title {
+		text-align: center;
+	}
+}
+
+@media (max-width: 1200px) {
+
+	#img-phone {
+		margin-left: 80px;
+		width: 60%;
+		transform: rotate(25deg);
+	}
+
+	#features {
+		background-color: #fff;
+		padding: 7% 0;
+
+
+	}
+}

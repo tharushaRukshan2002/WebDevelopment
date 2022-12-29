@@ -1,0 +1,16 @@
+/* body {
+    background-color: red;
+} */
+
+.tittle {
+    text-align: center;
+    font-size: 3vw;
+    background-color: chocolate;
+}
+
+.btn-Jq {
+    display: blockS;
+    background-color: chocolate;
+    margin-top: 0.4%;
+    border: 1px solid blue;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Page Title</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="Style.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/ac38a623ca.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<!-- THIS IS THE PRODUCTS -->
+		<h1 class="text-center">MY SHOP</h1>
+
+		<div class="shop-items">
+			<div class="row justify-content-center">
+				<div class="col-md-2">
+					<div class="card">
+						<img
+							src="Images/shirt.jpg"
+							alt="shirt image"
+							class="shop-item-img"
+						/>
+						<div class="card-body">
+							<h5 class="card-title item-name">Mens Shirt</h5>
+							<p class="card-text price-txt">$12.00</p>
+							<button type="button" class="btn btn-outline-info add-to-cart"
+								>Add to cart</button
+							>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="card">
+						<img
+							src="Images\denim.jpg"
+							alt="denim image"
+							class="shop-item-img"
+						/>
+						<div class="card-body">
+							<h5 class="card-title item-name">Mens Denim</h5>
+							<p class="card-text price-txt">$20.00</p>
+							<button type="button" class="btn btn-outline-info add-to-cart"
+								>Add to cart</button
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- THIS IS THE SHOPPING CART -->
+		<div class="shoppingCartSection hidden">
+			<h2 class="text-center mt-5 mb-4">Shopping cart</h2>
+			<table class="table table-bordered border-primary container">
+				<thead>
+					<tr>
+						<th>product</th>
+						<th>price</th>
+						<th>Quantity</th>
+						<th>Total</th>
+						<th></th>
+					</tr>
+				</thead>
+                <tbody id="final-price">
+                    <td colspan="2"><p>Total</p></td>
+                    <td id="final-quantity">0</td>
+                    <td id="final-total">0</td>
+                    <td></td>
+                </tbody>
+			</table>
+		</div>
+            
+
+
+		<script src="index.js"></script>
+	</body>
+</html>

@@ -1,22 +1,22 @@
-var buttonList = document.querySelectorAll(".set button")
+var buttonList = document.getElementsByTagName("button")
 console.log(buttonList);
 
 for (let i = 0; i < buttonList.length; i++) {
     buttonList[i].addEventListener('click', function (evt) {
         console.log(evt);
         var text = this.textContent;
-        makeSound(text);
+        makeSoundFunc(text);
         buttonAnimation(text);
     });
 }
 
 document.addEventListener("keypress", (event) => {
     var text = event.key;
-    makeSound(text);
+    makeSoundFunc(text);
     buttonAnimation(text);
 });
 
-function makeSound(textContent) {
+function makeSoundFunc(textContent) {
     switch (textContent) {
         case 'w':
             var audio = new Audio('sounds/tom-1.mp3');
